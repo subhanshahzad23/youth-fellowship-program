@@ -1,0 +1,442 @@
+@import "tailwindcss";
+
+/*
+ * Launchpad Fellowship design tokens.
+ * Derived from the Mural reference audit (docs/reference-audit.md):
+ * black opening, white/fog body, one jade accent, light serif display,
+ * flat surfaces separated by background colour rather than shadows.
+ */
+:root {
+  --void: #000000;
+  --paper: #ffffff;
+  --jade: #00c27a;
+  --jade-press: #03af6e;
+  --mint: #b4f5c8;
+  --forest: #00843f;
+  --leaf: #d5f8e0;
+  --leaf-ink: #007b3b;
+  --fog: #f3f3f3;
+  --ash: #eeeeee;
+  --line: #dce1e5;
+  --muted-display: #8c8c8c;
+  --muted-text: #626262;
+  --dark-input-line: #4f5457;
+  --ink: #333333;
+
+  --radius-control: 8px;
+  --radius-overlay: 16px;
+  --radius-panel: 24px;
+  --radius-badge: 26px;
+  --content-width: 1280px;
+  --space-section: clamp(80px, 9vw, 120px);
+
+  /* Observed on mural.co buttons: 0.3s cubic-bezier(0.23, 1, 0.32, 1) */
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --shadow-float: rgba(11, 41, 70, 0.32) 0px 0px 1px 0px, rgba(42, 82, 121, 0.08) 0px 24px 20px 0px;
+  --shadow-card: rgba(0, 0, 0, 0.08) 0px 4px 4px 0px;
+  --shadow-panel: 0 30px 60px -20px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.18);
+}
+
+@theme inline {
+  --color-void: var(--void);
+  --color-paper: var(--paper);
+  --color-jade: var(--jade);
+  --color-jade-press: var(--jade-press);
+  --color-mint: var(--mint);
+  --color-forest: var(--forest);
+  --color-leaf: var(--leaf);
+  --color-leaf-ink: var(--leaf-ink);
+  --color-fog: var(--fog);
+  --color-ash: var(--ash);
+  --color-line: var(--line);
+  --color-muted-display: var(--muted-display);
+  --color-muted: var(--muted-text);
+  --color-dark-line: var(--dark-input-line);
+  --color-ink: var(--ink);
+
+  /* In-canvas palette: sticky notes, cursors, avatars, status. Never marketing chrome. */
+  --color-lemon: #ffe146;
+  --color-canary: #ffed87;
+  --color-lavender: #e6bfff;
+  --color-sky: #79c1ff;
+  --color-ice: #bed7ff;
+  --color-indigo: #195ad7;
+  --color-blueprint: #5887ff;
+  --color-flamingo: #ff98b4;
+  --color-blush: #ffcee0;
+  --color-coral: #ff4b4b;
+  --color-tangerine: #ed6000;
+  --color-amber: #ffaa00;
+  --color-grape: #be53ff;
+
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-newsreader), "Times New Roman", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-control: 8px;
+  --radius-overlay: 16px;
+  --radius-panel: 24px;
+  --radius-badge: 26px;
+
+  --shadow-float: var(--shadow-float);
+  --shadow-card: var(--shadow-card);
+  --shadow-panel: var(--shadow-panel);
+
+  --ease-quint: var(--ease-out-quint);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--paper);
+    color: var(--void);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background: var(--mint);
+    color: var(--void);
+  }
+  :focus-visible {
+    outline: 2px solid var(--void);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  .on-dark :focus-visible,
+  .on-dark:focus-visible {
+    outline-color: var(--jade);
+  }
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-optical-sizing: auto;
+  }
+
+  /* Display scale. Newsreader is tuned to the measured STK Bureau metrics:
+     80px / 88px line-height / -4px tracking on the desktop hero. */
+  .display-hero {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(46px, 6.4vw, 84px);
+    line-height: 1.06;
+    letter-spacing: -0.048em;
+  }
+  .display-xl {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(42px, 5.2vw, 72px);
+    line-height: 1.02;
+    letter-spacing: -0.042em;
+  }
+  .display-lg {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(36px, 4vw, 56px);
+    line-height: 1.08;
+    letter-spacing: -0.038em;
+  }
+  .display-md {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(30px, 3vw, 42px);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+  .display-sm {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(24px, 2.2vw, 30px);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .dots-dark {
+    background-color: var(--void);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1.2px);
+    background-size: 22px 22px;
+    background-position: 11px 11px;
+  }
+  .dots-light {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.13) 1px, transparent 1.2px);
+    background-size: 22px 22px;
+    background-position: 11px 11px;
+  }
+  .dots-mint {
+    background-color: var(--mint);
+    background-image: radial-gradient(rgba(0, 90, 40, 0.16) 1px, transparent 1.2px);
+    background-size: 22px 22px;
+  }
+
+  .container-page {
+    width: 100%;
+    max-width: calc(var(--content-width) + 80px);
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 24px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-page {
+      padding-inline: 40px;
+    }
+  }
+
+  .prose-session {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--ink);
+  }
+  .prose-session h2 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    font-size: 30px;
+    line-height: 1.15;
+    color: var(--void);
+    margin: 2.2em 0 0.6em;
+  }
+  .prose-session h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--void);
+    margin: 1.6em 0 0.4em;
+  }
+  .prose-session p {
+    margin: 0.9em 0;
+  }
+  .prose-session ul,
+  .prose-session ol {
+    margin: 0.8em 0;
+    padding-left: 1.3em;
+  }
+  .prose-session ul {
+    list-style: disc;
+  }
+  .prose-session ol {
+    list-style: decimal;
+  }
+  .prose-session li {
+    margin: 0.35em 0;
+  }
+  .prose-session strong {
+    color: var(--void);
+    font-weight: 600;
+  }
+  .prose-session a {
+    color: var(--leaf-ink);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* Scrollbar hidden but scrollable (chip rows, tab rows) */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Rotating spectrum border for the active selector tile (observed on the
+   mural.co hero team selector). Uses @property so only the angle animates. */
+@property --spin {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.spectrum-ring {
+  position: relative;
+  isolation: isolate;
+}
+.spectrum-ring::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 11px;
+  padding: 3px;
+  background: conic-gradient(from var(--spin), #ff4b4b, #ffaa00, #ffe146, #00c27a, #79c1ff, #be53ff, #ff98b4, #ff4b4b);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: spin-ring 5s linear infinite;
+  z-index: -1;
+}
+@keyframes spin-ring {
+  to {
+    --spin: 360deg;
+  }
+}
+
+@keyframes typing-dot {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+.typing-dot {
+  animation: typing-dot 1.2s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, #eeeeee 0px, #f7f7f7 120px, #eeeeee 240px);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .spectrum-ring::before {
+    animation: none;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 12px)) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes acc-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes acc-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+/* Hero masked line reveal — CSS so content is visible even if JS fails. */
+@keyframes line-up {
+  from {
+    transform: translateY(108%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.line-mask {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.06em;
+  margin-bottom: -0.06em;
+}
+.line-mask > span {
+  display: inline-block;
+  animation: line-up 0.9s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+.rise-in {
+  animation: rise-in 0.8s cubic-bezier(0.23, 1, 0.32, 1) both;
+}

@@ -1,0 +1,293 @@
+{
+ "navItems": [
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label is-text-weight-light",
+   "text": "Product",
+   "parent": "nav-link_toggle is-new is-first w-dropdown-toggle",
+   "gp": "nav-link_dropdown w-dropdown"
+  },
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label is-text-weight-light",
+   "text": "Solutions",
+   "parent": "nav-link_toggle is-new w-dropdown-toggle",
+   "gp": "nav-link_dropdown w-dropdown"
+  },
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label is-text-weight-light",
+   "text": "Services",
+   "parent": "nav-link_toggle is-new w-dropdown-toggle",
+   "gp": "nav-link_dropdown w-dropdown"
+  },
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label is-text-weight-light",
+   "text": "Enterprise",
+   "parent": "nav-link_toggle is-link is-new w-inline-block",
+   "gp": "navbar_menu-left-wrapper is-new is-announcement"
+  },
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label is-text-weight-light",
+   "text": "Resources",
+   "parent": "nav-link_toggle is-new w-dropdown-toggle",
+   "gp": "nav-link_dropdown w-dropdown"
+  },
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label is-text-weight-light",
+   "text": "Pricing",
+   "parent": "nav-link_toggle is-link is-new w-inline-block",
+   "gp": "navbar_menu-left-wrapper is-new is-announcement"
+  },
+  {
+   "tag": "DIV",
+   "cls": "nav-link_parent-label",
+   "text": "Login",
+   "parent": "nav-link_toggle is-link is-new w-inline-block",
+   "gp": "navbar_menu-right-button-wrap is-new"
+  },
+  {
+   "tag": "DIV",
+   "cls": "button_label test-light-outline-new-10",
+   "text": "Book a demo",
+   "parent": "button_component test-light-outline-new-6 w-inline-block",
+   "gp": "w-layout-vflex navbar_cta-wrapper is-new"
+  },
+  {
+   "tag": "DIV",
+   "cls": "button_label test-dark-navbar-new-5",
+   "text": "Sign up free",
+   "parent": "button_component test-dark-navbar-new w-inline-block",
+   "gp": "w-layout-vflex navbar_cta-wrapper is-new"
+  }
+ ],
+ "dropdown": [],
+ "selector": {
+  "html": "<div class=\"page-padding\"><div class=\"container-large position-relative w-container\"><div class=\"home-hero_header\"><div class=\"home_hero-left-col\"><div class=\"home-hero_h1-wrapper\"><h1 class=\"home_hero-h1\">Sync up. Speed up. <span class=\"text-color-white\">Stand out.</span></h1></div><div class=\"spacer-0-75rem\"></div><p class=\"text-size-1-125rem text-color-white\">You’re busier than ever. Mural is the visual AI platform that turns alignment into an ongoing way of working, connecting strategy to execution and driving results in one shared workspace.</p><div class=\"spacer-2rem\"></div><div class=\"get-started_form-wrapper\"><div data-wf--signup-form--variant=\"inline-black\" class=\"signup-form_wrapper\"><div class=\"signup-form_component w-variant-d13562d1-5046-7e21-9e3c-1796c353952b w-form\"><form id=\"mural-signup\" name=\"wf-form-mural-signup\" data-name=\"mural-signup\" action=\"/\" method=\"post\" data-nb-disable=\"\" class=\"signup-form_form w-variant-d13562d1-5046-7e21-9e3c-1796c353952b\" data-wf-page-id=\"62eb9953d262c232b1eb685a\" data-wf-element-id=\"453fbbbb-d610-cc7b-2fa8-498dc4bff7b8\" data-turnstile-sitekey=\"0x4AAAAAAAQTptj2So4dx43e\" aria-label=\"mural-signup\"><div class=\"signup-form_inner w-variant-d13562d1-5046-7e21-9e3c-1796c353952b\"><input class=\"signup-form_email-field w-variant-d13562d1-5046-7e21-9e3c-1796c353952b w-input\" data-nb-exclude=\"\" maxlength=\"256\" name=\"email\" data-name=\"email\" placeholder=\"Enter your email\" type=\"email\" id=\"email\" required=\"\" style=\"\"><input class=\"signup-for",
+  "items": [
+   {
+    "text": "Stand out.",
+    "cls": "text-color-white",
+    "tag": "SPAN",
+    "rect": [
+     40,
+     -168,
+     327,
+     83
+    ]
+   },
+   {
+    "text": "You’re busier than ever. Mural is the vi",
+    "cls": "text-size-1-125rem text-color-white",
+    "tag": "P",
+    "rect": [
+     40,
+     -70,
+     720,
+     54
+    ]
+   },
+   {
+    "text": "Collaborator Notice",
+    "cls": "text-style-underline",
+    "tag": "A",
+    "rect": [
+     194,
+     63,
+     93,
+     14
+    ]
+   },
+   {
+    "text": "Privacy Statement",
+    "cls": "text-style-underline",
+    "tag": "A",
+    "rect": [
+     296,
+     63,
+     86,
+     14
+    ]
+   },
+   {
+    "text": "Thank you! Your submission has been rece",
+    "cls": "",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Oops! Something went wrong while submitt",
+    "cls": "",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "(function () {\n    var form = document.g",
+    "cls": "",
+    "tag": "SCRIPT",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Research and Development",
+    "cls": "home-hero_card-button-title",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Sales",
+    "cls": "home-hero_card-button-title",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Marketing",
+    "cls": "home-hero_card-button-title",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Consulting",
+    "cls": "home-hero_card-button-title",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "From idea to launch, streamline product ",
+    "cls": "home-hero_right-col_p",
+    "tag": "P",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Visualize your concept now",
+    "cls": "button_label test-dark-outline-new-5",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Whether building strategic account plans",
+    "cls": "home-hero_right-col_p",
+    "tag": "P",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Map your sales funnel now",
+    "cls": "button_label test-dark-outline-new-5",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Map your go-to-market approach, unify ca",
+    "cls": "home-hero_right-col_p",
+    "tag": "P",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Define your strategy now",
+    "cls": "button_label test-dark-outline-new-5",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Facilitate workshops, align stakeholders",
+    "cls": "home-hero_right-col_p",
+    "tag": "P",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Map stakeholder relationships",
+    "cls": "button_label test-dark-outline-new-5",
+    "tag": "DIV",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "text": "Which team are you part of?",
+    "cls": "home-hero_card-heading",
+    "tag": "DIV",
+    "rect": [
+     978,
+     139,
+     260,
+     19
+    ]
+   }
+  ]
+ }
+}

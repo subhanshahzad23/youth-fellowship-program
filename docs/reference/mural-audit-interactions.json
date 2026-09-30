@@ -1,0 +1,169 @@
+{
+ "earlyAnims": [],
+ "gsap": {
+  "gsap": true,
+  "st": true,
+  "lenis": false,
+  "webflow": true,
+  "ix2": true,
+  "wid": 25
+ },
+ "loopAnims": [],
+ "ctaBefore": {
+  "bg": "rgb(0, 194, 122)",
+  "bgpos": "100% 50%",
+  "bgi": "url(\"https://cdn.prod.website-files.com/62e11362da2667ac3d0e6ed5/68e6928035d11fb7d0599ea0_button-icon-submit.svg\")",
+  "filter": "none",
+  "border": "0px none rgb(0, 0, 0)"
+ },
+ "ctaAfter": {
+  "bg": "rgb(3, 175, 110)",
+  "bgpos": "100% 50%",
+  "bgi": "url(\"https://cdn.prod.website-files.com/62e11362da2667ac3d0e6ed5/68e6928035d11fb7d0599ea0_button-icon-submit.svg\")",
+  "filter": "none",
+  "border": "0px none rgb(0, 0, 0)"
+ },
+ "greenBtnBefore": [
+  {
+   "cls": "button_background",
+   "bg": "rgb(180, 245, 200)",
+   "tr": "none",
+   "trans": "width 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+   "br": "6px",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "cls": "button_icon-wrap",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "background-color 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+   "br": "6px",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "cls": "button_icon w-embed",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "transform 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+   "br": "0px",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "cls": "[object SVGAnimatedString]",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "all",
+   "br": "0px",
+   "w": 9,
+   "h": 14
+  },
+  {
+   "cls": "[object SVGAnimatedString]",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "all",
+   "br": "0px",
+   "w": 8.2515869140625,
+   "h": 14
+  },
+  {
+   "cls": "button_label",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "all",
+   "br": "0px",
+   "w": 151.125,
+   "h": 40
+  },
+  {
+   "self": true,
+   "bg": "rgb(0, 194, 122)",
+   "bgi": "none",
+   "bgpos": "100% 100%",
+   "bgsize": "200% 100%",
+   "border": "0px none rgb(0, 0, 0)",
+   "trans": "background-position 0.3s cubic-bezier(0.23, 1, 0.32, 1)"
+  }
+ ],
+ "greenBtnAfter": [
+  {
+   "cls": "button_background",
+   "bg": "rgb(180, 245, 200)",
+   "tr": "none",
+   "trans": "width 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+   "br": "6px",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "cls": "button_icon-wrap",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "background-color 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+   "br": "6px",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "cls": "button_icon w-embed",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "transform 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+   "br": "0px",
+   "w": 36,
+   "h": 36
+  },
+  {
+   "cls": "[object SVGAnimatedString]",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "all",
+   "br": "0px",
+   "w": 9,
+   "h": 14
+  },
+  {
+   "cls": "[object SVGAnimatedString]",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "all",
+   "br": "0px",
+   "w": 8.2515869140625,
+   "h": 14
+  },
+  {
+   "cls": "button_label",
+   "bg": "rgba(0, 0, 0, 0)",
+   "tr": "none",
+   "trans": "all",
+   "br": "0px",
+   "w": 151.125,
+   "h": 40
+  },
+  {
+   "self": true,
+   "bg": "rgb(0, 194, 122)",
+   "bgi": "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))",
+   "bgpos": "0% 100%",
+   "bgsize": "200% 100%",
+   "border": "0px none rgb(0, 0, 0)",
+   "trans": "background-position 0.3s cubic-bezier(0.23, 1, 0.32, 1)"
+  }
+ ],
+ "prodCount": 0,
+ "heroTabs": [
+  {
+   "cls": "spacer-1rem hide-on-tablet",
+   "text": "",
+   "rect": [
+    40,
+    6,
+    1360,
+    16
+   ]
+  }
+ ]
+}
