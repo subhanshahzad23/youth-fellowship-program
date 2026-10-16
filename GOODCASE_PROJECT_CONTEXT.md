@@ -9,7 +9,7 @@
 - **Stack:** pure Next.js 16 (App Router, Turbopack), React 19, TypeScript strict, Tailwind v4, Motion, GSAP + ScrollTrigger, Radix (`radix-ui`), Lucide, Zustand (only for simulated form/booking state). There is no backend. The 3D section uses three.js via React Three Fiber.
 - **Launchpad is preserved on the `launchpad` branch** (created 2026-10-16 at commit `6c7e8ee`, the complete Launchpad demo, 375 files). The user asked to keep it intact for later use: `git checkout launchpad`. Never rebase or delete that branch. Push it together with `main` once a remote exists.
 - **Repo path:** `/Users/shyzii/Documents/Projects/youth fellowship program`. The branch is `main`.
-  - **No git remote is configured** (`git remote -v` was empty on 2026-10-16). The user asked to "push to main". Commit to `main`, then push if a remote exists; otherwise tell the user and ask for the remote URL, or use `gh` if available.
+  - **Remote:** `origin` = https://github.com/subhanshahzad23/youth-fellowship-program (HTTPS, credentials in the macOS keychain; no `gh` CLI). Vercel auto-deploys `main` to production: https://youth-fellowship-program.vercel.app
 - **Read `AGENTS.md`.** This Next.js version has breaking changes. Docs are in `node_modules/next/dist/docs/`. Route `params` and `searchParams` are Promises, and `useSearchParams` needs a `<Suspense>` wrapper.
 
 ## 2. The user's instructions (2026-10-16)
@@ -222,4 +222,4 @@ Raw text dumps are in `docs/source/goodcase-live/*.txt`.
   - **Validation:** lint clean, build OK (41 pages), Playwright 94/94.
   - **Screenshots:** `scripts/feature-shots.mjs` writes `docs/screenshots/features`.
   - **Commit:** committed to `main`. Pushing is blocked: there is no git remote and no `gh` CLI. Push both `main` and `launchpad` once the user provides a remote URL.
-
+- **2026-10-16 (pushed):** Added the `origin` remote (the existing GitHub repo `subhanshahzad23/youth-fellowship-program`, whose `main` was at `6c7e8ee`). Pushed `main` (`2025d1e`, fast-forward) and `launchpad`. The Vercel production deploy succeeded and https://youth-fellowship-program.vercel.app serves the Goodcase site.
