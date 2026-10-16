@@ -1,12 +1,16 @@
-# Launchpad Fellowship — interactive platform demo
+# Goodcase — website redesign concept (Part B)
 
-This is a front-end demonstration of a platform for a fictional **18-month entrepreneurship fellowship for people aged 16–24**. It includes a public website, applications and review, cohort management, a learning platform, and supervised messaging, all built in **Next.js** (App Router) with no backend.
+A working design concept for the Goodcase website redesign RFP. **Goodcase** is the back office of U.S. immigration law firms. It drafts filing-ready O-1, EB-1A, EB-2 NIW, H-1B, L-1 and E-2 petitions and runs cases with an experienced case manager, supported by Casey. Attorneys keep the strategy, the client and the signature.
 
-> **Demo · fictional data.** Every person, place, venture, document and message is invented. Nothing leaves your browser.
+The site is built in **pure Next.js** (App Router) with no backend.
+
+> **Design concept.** Facts, team names, testimonials, blog titles and policy text come from the RFP and goodcase.io. Client logos, case studies, team photos, testimonial videos and sample podcast episodes are **labelled placeholders**. All forms, the booking calendar and the newsletter are simulated; nothing leaves the browser.
+
+The earlier Launchpad Fellowship demo is preserved on the **`launchpad`** branch.
 
 ## Run it
 
-Requires Node 20+ (tested with Node 22).
+You need Node 20 or later.
 
 ```bash
 npm install
@@ -19,96 +23,89 @@ Then open **http://localhost:3000**. For a production build:
 npm run build && npm run start
 ```
 
-- Start at **`/demo`** to pick an identity, or open the **guided walkthrough**.
-- The dark **Demo · fictional data** pill in the bottom-left corner opens the presenter controls. From there you can switch identity, set application windows to before-open, open or closed, open the walkthrough, or reset.
+The dark **Design concept** pill in the bottom-left corner opens a reviewer panel. It has an index of every page, grouped like the brief's site map, and a button that resets the simulated forms.
 
-## Demo identities
+## What's in it
 
-| Persona | Role | Starting point |
-|---|---|---|
-| **Maya Chen** | Applicant | Has a saved Winter 2027 draft that resumes at *Residence*. Can also apply to Spring 2027. |
-| **Amira Hassan** | Program admin (Summer 2026, Winter 2027) | Review queue, rubric scoring, approvals, safeguarding, announcements. |
-| **Noah Williams** | Fellow · Summer 2026 · Founder Foundations | Assignment draft in progress, unread mentor messages. |
-| **Elena Ruiz** | Track instructor · Founder Foundations | Submissions to review; edits and publishes sessions. |
-| **Daniel Brooks** | Mentor | Supervised threads with three assigned fellows (Noah, Diego, Lily). |
-| **Priya Shah** | Executive admin | Sees every cohort and can export conversations, but can't open residence documents she isn't assigned to. |
+| Group | Pages |
+|---|---|
+| Main | Home · Case drafting · Case management · About (`#team`, `#process`, `#security`) · Book a call |
+| Who we serve | Overview · Solo and small firms · Growing firms · Large and high-volume |
+| Resources | Hub · Blog + article · Podcast + episode · Case studies + detail · Sample work + detail · FAQ |
+| Other | Casey · AI Use Policy · Privacy Policy · Design system |
 
-The seed also includes a second program admin, a second executive, two more instructors, three more mentors, 24 fellows across two active cohorts, and 12 applicants in varied statuses.
+**Components the brief asks for:**
+- A header with two dropdowns (Services, Who we serve).
+- A footer with newsletter signup.
+- A fact strip.
+- Service cards with open prices.
+- A four-step process (sticky, scroll-led on Home).
+- An ROI calculator.
+- Video testimonials (captioned player).
+- A client logo row.
+- A booking calendar embed with time zones, a `.ics` download and a Google Calendar link.
+- A contact form.
+- A design-system page.
 
-## What works
+**Conversion rule.** The first-case offer ("First case at half price · Money-back guarantee · No minimum volume · Flat fees from $500") sits under every hero and above every closing button.
 
-- **Public site**: a Mural-inspired homepage with a floating nav and dropdowns, a black dotted hero, a live animated workspace with a role selector, a scroll-led journey, track and cohort pages, dates, fictional stories, FAQs and a footer.
-- **Applications**:
-  - Multistep wizard with autosave and resume.
-  - Validation, conditional questions and guardian fields for under-18s.
-  - Mock residence check (inside / outside / ambiguous fixtures).
-  - Sample or uploaded proof of residence.
-  - Submit once with a reference number.
-  - Requested changes, then resubmission.
-  - Concurrent applications to different cohorts.
-- **Review**:
-  - Searchable queue.
-  - Restricted documents (assigned reviewers only).
-  - Weighted rubric.
-  - Approve, waitlist, reject or request changes.
-  - Approval enrolls the *same* identity, sends a simulated welcome email and writes an audit entry.
-  - Form builder with versioned publishing.
-- **Cohorts and people**:
-  - 18-month timelines.
-  - Staff, mentor and reviewer assignments.
-  - Scoped directories.
-  - Announcements with recipient previews, simulated delivery and an email outbox.
-  - Audit log.
-- **Learning**:
-  - 3 tracks × 6 modules, 56 sessions.
-  - Narrated sample videos with captions and transcripts.
-  - Worksheets, assignments, feedback and resubmission.
-  - Instructor drafts with preview and publish.
-  - Simulated Notion migration that is idempotent.
-- **Messaging and safeguarding**:
-  - Permission-checked inbox (cohort, mentor and instructor boundaries).
-  - Read receipts and scripted replies.
-  - Attachments.
-  - Report, hide or restore, and resolve.
-  - Scoped JSON/CSV/HTML exports.
-  - Digest preview.
+**Legora-inspired 3D section.** "How a Goodcase petition is built" is a pinned, scroll-driven stack of three.js glass plates (React Three Fiber). It runs from your strategy and signature, through intake, drafting, two-step review, Casey and your case manager, to a filing-ready package that splits into the six case types.
+- Hovering a plate highlights its layer, and the cursor tilts the stack.
+- Phones, reduced-motion settings and browsers without WebGL get a CSS isometric version.
 
-## How it's built
+## Stack
 
-- `src/lib/domain/`: typed normalized model (`types.ts`), **shared permission rules** (`permissions.ts`), derived data (`selectors.ts`) and application validation.
-- `src/lib/actions/`: every mutation, run through a single atomic `commit()`. If any step fails, nothing is applied.
-- `src/lib/store/`: a Zustand store persisted to `localStorage` (versioned, with a recovery path for corrupt or full storage). User-added file bytes live in IndexedDB (`src/lib/files.ts`).
-- `src/lib/seed/`: a deterministic seed, the curriculum content and the video manifest.
-- `src/lib/sim/`: simulated services — the address check, keyword moderation rules and Notion fixtures.
-- `src/lib/clock.ts`: an injectable demo clock that starts on **October 30, 2026**.
-- `scripts/generate-assets.ts` (`npm run assets`): regenerates the watermarked sample documents, worksheet PDFs and narrated videos. It needs macOS `say` and `ffmpeg`. The generated files are already committed under `public/`.
+- **Core:** Next.js 16 (App Router, Turbopack), React 19, TypeScript (strict) and Tailwind CSS v4. Design tokens are in `src/app/globals.css`.
+- **Motion and 3D:** Motion, plus GSAP ScrollTrigger for the sticky process. three.js with @react-three/fiber and @react-three/drei powers the 3D stack.
+- **UI and state:** Radix primitives, Lucide icons and Sonner toasts. Zustand holds the simulated bookings, messages and newsletter state in localStorage.
+- **Fonts:** Newsreader (display serif) and DM Sans (interface), loaded through `next/font`.
 
-## Reset
+## Project layout
 
-- Presenter controls → **Reset demo data**, or the button on `/demo`.
-- This restores every seeded record and clears files added in this browser.
-- Reloading never overwrites your changes. The seed only loads when there's no saved state or the data version changes.
-
-## Tests
-
-With the app running on port 3000 (or set `BASE_URL`, e.g. against `npm run start`):
-
-```bash
-npm run test:e2e
+```
+src/app/                    routes (one folder per page)
+src/components/gc/          Goodcase sections: offer, facts, services, process, roi, testimonials,
+                            team, security, pricing, faq, final-cta, booking, contact-form
+src/components/gc/home/     hero, case board, 3D petition stack (scene + fallback)
+src/components/site/        nav, footer, page shell + hero, concept pill, reveal
+src/components/ui/          buttons, form controls, dialogs, accordion, badges
+src/lib/content/site.ts     all copy and facts (single source of truth)
+src/lib/leads.ts            simulated lead store (bookings, messages, newsletter)
+docs/source/                the RFP text and goodcase.io text captures
+docs/reference-legora/      Legora 3D section reference frames
 ```
 
-The suite covers the connected journeys and permission boundaries: application → review → enrollment, requested changes, window scenarios, assignments and feedback, draft/publish, the Notion import, messaging boundaries, scripted replies, moderation and export, announcement scope, and reset. Set `BASE_URL` to test another port.
+## Assets
 
-## Important: demo vs. production security
+```bash
+npm run assets
+```
 
-The role checks run in the browser. They demonstrate the intended workflows, but **they are not security**. Documents in this demo are not encrypted, and all data sits in the viewer's browser storage.
+This regenerates the testimonial placeholder videos (`public/media/*.mp4`, posters and WebVTT captions) and `src/app/opengraph-image.png`.
+- Slides are rendered with Playwright.
+- The real published quotes are narrated with macOS `say`.
+- Everything is encoded with ffmpeg.
 
-A production build needs server-side authentication and authorization, private encrypted document storage with short-lived access, server-enforced message oversight and a trustworthy audit store. See `docs/production-handoff.md`.
+## Checks
 
-## Docs
+```bash
+npm run lint
+npm run build && npx next start -p 3100
+BASE_URL=http://localhost:3100 npm run test:e2e
+BASE=http://localhost:3100 node scripts/route-sweep.mjs docs/screenshots 1440
+```
 
-- `docs/reference-audit.md`: the Mural design and motion audit (observed vs. added) and adaptation decisions. Screenshots are in `docs/reference/`.
-- `docs/production-handoff.md`: date interpretation, production requirements and the decisions the client needs to make.
-- `docs/demo-walkthrough.md`: a 5–7 minute presentation script.
-- `docs/ui-conventions.md`: implementation conventions.
-- `docs/screenshots/`: screenshots of the finished demo.
+The Playwright suite covers:
+- The nav dropdowns and the mobile menu.
+- The first-case offer placement.
+- The 3D section and its fallbacks.
+- The practice selector.
+- The ROI math.
+- The booking flow, including the `.ics` file.
+- Contact and newsletter validation.
+- The testimonial player.
+- Every route at 390, 768 and 1440px: HTTP 200, no horizontal overflow and no console errors.
+
+## Context for future sessions
+
+`GOODCASE_PROJECT_CONTEXT.md` (brief, decisions, content sources, progress log) and `GOODCASE_BUILD_PLAN.md` (site map and checklist) in the repo root hold the full project context.

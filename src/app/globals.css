@@ -440,3 +440,41 @@
 .rise-in {
   animation: rise-in 0.8s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
+
+/* ROI calculator range input: jade fill to the thumb, black thumb. */
+.roi-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--void) 0 var(--pct), #d6dadd var(--pct) 100%);
+  outline: none;
+}
+.roi-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 2px solid var(--void);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  cursor: grab;
+  transition: transform 150ms var(--ease-out-quint);
+}
+.roi-range::-webkit-slider-thumb:active {
+  transform: scale(1.12);
+  cursor: grabbing;
+}
+.roi-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 2px solid var(--void);
+  cursor: grab;
+}
+.roi-range:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid var(--jade);
+  outline-offset: 2px;
+}

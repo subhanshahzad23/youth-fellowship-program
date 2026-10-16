@@ -3,7 +3,7 @@ import { DM_Sans, Newsreader } from "next/font/google";
 import { Providers } from "@/components/providers";
 import "./globals.css";
 
-// Display: Newsreader Light stands in for Mural's proprietary STK Bureau (see docs/reference-audit.md).
+// Display: Newsreader Light — a quiet, editorial legal serif for headlines.
 const newsreader = Newsreader({
   subsets: ["latin"],
   variable: "--font-newsreader",
@@ -12,7 +12,7 @@ const newsreader = Newsreader({
   display: "swap",
 });
 
-// Interface: DM Sans, a clean humanist sans in place of ABC Social.
+// Interface: DM Sans — plain, warm and highly legible for body copy and UI.
 const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-dm-sans",
@@ -21,12 +21,19 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.goodcase.io"),
   title: {
-    default: "Launchpad Fellowship — Start with an idea. Build what comes next.",
-    template: "%s · Launchpad Fellowship",
+    default: "Goodcase — the back office of U.S. immigration law firms",
+    template: "%s · Goodcase",
   },
   description:
-    "An 18-month entrepreneurship fellowship for young people aged 16–24. Applications, cohorts, learning and supervised messaging in one connected workspace. Demo with fictional data.",
+    "Filing-ready O-1, EB-1A, EB-2 NIW, H-1B, L-1 and E-2 petitions and experienced case managers for U.S. immigration law firms. Flat fees from $500 per case, first case at half price. Your strategy, your client, your signature.",
+  openGraph: {
+    title: "Goodcase — the back office of U.S. immigration law firms",
+    description: "Specialized drafting and case management for immigration attorneys. Flat fees from $500 per case.",
+    siteName: "Goodcase",
+    type: "website",
+  },
   robots: { index: false, follow: false },
 };
 

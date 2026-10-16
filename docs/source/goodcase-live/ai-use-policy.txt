@@ -1,0 +1,199 @@
+STATUS 200
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+Customise
+Reject All
+Accept All
+Powered by
+Services
+How it works
+About us
+Resources
+FlexParalegal
+Get Started
+AI Use Policy
+How we use - and don’t use - artificial intelligence in paralegal support
+
+‍
+
+Goodcase.io Sp. z o. o. is committed to the highest standard of immigration paralegal support. As artificial intelligence (AI) tools have entered the mainstream of legal services, we believe our clients deserve a frank, written explanation of how we use these technologies - and how we do not. Every principle below applies to every matter we handle, from initial intake through final delivery of your prepared materials.
+
+‍
+
+‍
+
+Our Core Principles
+
+‍
+
+Your matter is handled by experienced human paralegals. Every petition, cover letter, supporting statement, and declaration is prepared, reviewed, and approved by a qualified paralegal. AI does not prepare your documents. Our team does, drawing on specialized knowledge of immigration procedures and the precision required in case preparation.
+Your personal information is never entered into AI tools. We do not input your name, date of birth, passport or travel document numbers, Alien Registration Number (A-Number), address, biographic details, family information, employer data, financial records, or any other personally identifiable information into any AI system or large language model (LLM).
+Your documents remain inside our secure systems. We do not attach or upload your client file, identity documents, employment records, financial materials, or case evidence to any AI platform. Your file is maintained exclusively in our secure case-management system and is accessible only to your designated support team.
+AI is applied only to public, non-confidential information. When we use AI, we use it to organize and condense publicly available material - federal statutes, USCIS regulations and policy manuals, AAO decisions, State Department guidance, and country-conditions reports. Nothing private about you enters that workflow.
+AI is a research and organizational tool, not a document author. Our team may use AI to synthesize lengthy public-record sources, build research outlines, or flag potential grammar and clarity issues in paralegal-drafted language. We do not use AI to generate case-specific narratives, produce client-specific content, or fabricate citations.
+Every AI-assisted output is verified by a qualified team member. Any material produced with AI assistance is treated as a preliminary suggestion, not a finished work product. Every citation and factual reference in every prepared document is confirmed by a human team member against the original authoritative source, without exception.
+
+‍
+
+Staff Accountability and Quality Responsibility
+
+‍
+
+Our team bears full responsibility for every aspect of the support services we provide. AI does not replace professional judgment, and it does not relieve any staff member of the duties owed to our clients and the supervising attorneys they work with. Specifically, our team remains solely responsible for:
+
+All case analysis and organizational decisions, including assessment of documentation requirements, identification of relevant supporting materials, and selection of the appropriate preparation approach.
+All drafting, including petition preparation, cover letters, supporting statements, declarations, and any other written materials prepared on behalf of our clients.
+All factual verification, including review of client-provided information, corroborating evidence, and any research derived from public sources.
+The final work product delivered to clients and their supervising attorneys prior to submission. Our staff reviews every work product under the professional standards applicable to paralegal practice.
+
+We adhere strictly to all applicable standards governing the use of AI in paralegal and immigration support services. When AI is used in any capacity, staff oversight is continuous, not periodic. All work produced with AI assistance is reviewed, verified, and approved by a qualified team member before delivery.
+
+‍
+
+‍
+
+‍
+
+Internal Security and Controlled AI Usage
+
+‍
+
+The limited use of AI tools within our practice is governed by company-level security protocols and confidentiality standards consistent with our obligations under applicable data protection requirements. Specifically:
+
+Access controls: Any internally approved AI-assisted tool is available only to authorized members of your support team. Access is role-based and logged.
+Data isolation: Client information is never commingled with AI workflows. Our case-management and document systems maintain strict separation from any AI platform.
+Vendor standards: Where any third-party software incorporates AI functionality, we evaluate and confirm that such tools meet our confidentiality and data-handling requirements before adoption.
+Ongoing compliance: Our internal AI practices are reviewed regularly against evolving industry guidance, company policy, and security standards.
+
+The integrity of your confidential information is not a feature we balance against efficiency. It is a baseline obligation we treat as non-negotiable.
+
+‍
+
+‍
+
+A Policy That Grows With the Field
+
+‍
+
+AI technology and the standards governing its use in legal support services are both evolving. We intend to evolve with them, thoughtfully and on behalf of our clients.
+
+‍
+
+This policy will be updated as needed to reflect changes in industry guidance and professional standards, developments in AI technology that affect how we work, and shifts in the regulatory and adjudicatory environment for immigration practice.
+
+‍
+
+When we update this policy, we will communicate those changes clearly. Our commitment throughout will remain constant: AI is a tool our team uses in your service, under their full supervision and professional accountability. That principle will not change regardless of how the technology develops.
+
+‍
+
+‍
+
+‍
+
+Common Client Questions
+
+‍
+
+"Will my information end up in a public AI database or training set?"
+
+No. Because we do not enter client information into AI tools, there is nothing for any AI provider to receive, retain, log, or use for model training. Your data lives exclusively inside our protected systems.
+
+‍
+
+"Could AI introduce errors or 'hallucinations' into my prepared documents?"
+
+The accuracy of your prepared documents rests with the qualified paralegal who reviews and approves them. AI-generated language is never copied directly into your materials. Every citation and factual assertion is verified by a human team member against the primary source. Our staff, not an algorithm, are accountable for the quality and integrity of your case preparation.
+
+‍
+
+"Are you using AI to reduce time spent on my matter?"
+
+Selectively, yes, and only in ways that benefit you. We use AI to reduce the time our team spends on mechanical tasks, such as reading through hundreds of pages of publicly available regulatory guidance. That time is redirected to the parts of your matter that require genuine expertise: organizing your documentation, developing your supporting evidence, and preparing accurate, thorough submissions. We use AI to give your matter more professional attention, not less.
+
+‍
+
+"Does your use of AI affect the confidentiality of my information?"
+
+No. Because we never share your confidential information with any AI platform, your privacy is fully protected. Our internal AI practices are designed from the ground up around this principle. We have not carved out exceptions, and we do not intend to.
+
+‍
+
+"Does USCIS or the supervising attorney know you use AI?"
+
+Every document we deliver is the work product of our paralegal team, prepared under applicable professional standards. We comply with all applicable disclosure obligations and operate transparently with the supervising attorneys our clients work with. We are always prepared to describe our AI practices in full upon request.
+
+‍
+
+‍
+
+‍
+
+More Questions? We're Here.
+
+‍
+
+If you have questions about how we use AI in your matter, please contact your case coordinator directly. We are pleased to walk through this policy with you in plain language and to address any concern specific to your case.
+
+‍
+
+Your trust is the foundation of our work. We want you to feel fully and accurately informed about every tool, process, and professional that touches your matter.
+
+‍
+
+The integrity of your confidential information is not a feature we balance against efficiency. It is a baseline obligation we treat as non-negotiable.
+
+‍
+
+‍
+
+‍
+
+Contact
+Need reliable team to support your law firm? Let's build something great together.
+Your Name *
+Your Email *
+Tell us a bit more about how we can help
+*I consent to the use of my email address by Goodcase.io to respond to my inquiry inaccordance with the Privacy Policy (*required)
+I would like to receive practical insights and updates for immigration professionals from Goodcase.io.
+The controller of your personal data is Goodcase.io Sp. z o.o with its registered office in Warsaw at al. Jana Pawla II 27, 00-867 Warsaw Show more
+(hereinafter referred to as "the Controller"). The Controller can be contacted by e-mail: info@goodcase.io or using the contact form on the website. Your personal data will be processed in order to respond to any communication from you, and in particular to perform any actions necessary to start our cooperation. In addition, we would like to inform you that you have specific rights under the GDPR, in particular the right to object to our actions as the Controller or to withdraw your consent (if your data is processed based on your consent). You can find more information about your rights and the methods of data processing in our Privacy Policy
+Send the message
+We usually respond within 24 hours.
+Services
+Paralegal Support
+Digital Transformation
+Operations & Growth
+Marketing Toolkit
+Goodcase
+Blog
+About us
+Examples of docs
+How we work
+FAQ
+Privacy Policy
+AI Use Policy
+Contact us
+info@goodcase.io
+Schedule Free Consultation
+Copyright © 2026 Goodcase.io Sp. z o.o. All rights reserved. Goodcase is a private company that provides services in support of immigration documents preparation by qualified attorneys. The information provided in this site is not legal advice, but general information on issues commonly encountered in immigration. Goodcase is not a law firm and does not provide legal advice. Use of the Goodcase website and its services are subject to our Privacy Policy and Terms of Use. Goodcase.io Sp. z. o. o. (Limited Liability Company), address: al. Jana Pawła II 27, Warsaw, 00‐867 Poland KRS number 0001060361, taxpayer identification NIP: 5273076826, business registry number REGON: 526474334.
+
+LINKS
+/
+/services
+/services/paralegal-support
+/services/digital-transformation
+/services/operations-growth
+/services/marketing-toolkit
+/how-it-works
+/about-us
+/resources
+/resources/examples-of-docs
+/resources/blog
+/resources/faq
+/flexparalegal
+/contact
+/privacy-policy
+/ai-use-policy

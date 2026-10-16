@@ -2,20 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
-import {
-  AlertTriangle,
-  CheckCircle2,
-  CircleDashed,
-  Clock,
-  FileEdit,
-  Hourglass,
-  Lock,
-  RotateCcw,
-  Send,
-  XCircle,
-} from "lucide-react";
-import type { ApplicationStatus } from "@/lib/domain/types";
-import { STATUS_LABEL } from "@/lib/domain/selectors";
+import { AlertTriangle, CircleDashed, Lock } from "lucide-react";
 import { cn, initials } from "@/lib/utils";
 
 /* ------------------------------------------------------------------ */
@@ -95,29 +82,6 @@ export function Badge({ tone = "neutral", children, className, icon }: { tone?: 
       {children}
     </span>
   );
-}
-
-const STATUS_META: Record<ApplicationStatus, { tone: Tone; Icon: typeof Clock }> = {
-  draft: { tone: "neutral", Icon: FileEdit },
-  submitted: { tone: "blue", Icon: Send },
-  in_review: { tone: "purple", Icon: Hourglass },
-  changes_requested: { tone: "amber", Icon: RotateCcw },
-  waitlisted: { tone: "amber", Icon: Clock },
-  approved: { tone: "green", Icon: CheckCircle2 },
-  rejected: { tone: "red", Icon: XCircle },
-};
-
-export function StatusBadge({ status, className }: { status: ApplicationStatus; className?: string }) {
-  const { tone, Icon } = STATUS_META[status];
-  return (
-    <Badge tone={tone} className={className} icon={<Icon className="size-3.5" aria-hidden />}>
-      {STATUS_LABEL[status]}
-    </Badge>
-  );
-}
-
-export function statusTone(status: ApplicationStatus): Tone {
-  return STATUS_META[status].tone;
 }
 
 /* ------------------------------------------------------------------ */

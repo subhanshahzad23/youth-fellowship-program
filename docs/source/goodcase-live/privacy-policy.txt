@@ -1,0 +1,547 @@
+STATUS 200
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+Customise
+Reject All
+Accept All
+Powered by
+Services
+How it works
+About us
+Resources
+FlexParalegal
+Get Started
+Privacy Policy
+Background
+
+‍
+
+With a view to ensuring the highest standards of security of personal data processing, Goodcase.io Sp. z o. o. would like to inform you that this privacy policy meets the requirements of the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, as well as the standards set in national regulations.
+
+This Privacy Policy contains detailed information on the rules of processing of your personal data by Goodcase.io Sp. z o. o. in your communications with us.
+
+‍
+
+‍
+
+Key definitions
+
+‍
+
+Controller – controller of personal data, the entity deciding on the purpose and means of processing of personal data. The controller of your personal data is Goodcase.io Sp. z o. o.
+
+Personal data – means any information about an identified or identifiable natural person (‘data subject’); an identifiable natural person is one whose identity may be determined, directly or indirectly, based on the data.
+
+EEA – European Economic Area, free trade area and common market, comprising the countries of the European Union and the European Free Trade Association (EFTA), with the exception of Switzerland. This is the area in which the free movement of personal data takes place.
+
+Data Recipient – means a natural or legal person, an organizational unit without legal personality (the so-called legal person with limited legal capacity), a public authority, a body or other entity to which personal data are disclosed, regardless of whether it is a “third party”.
+
+Third countries – non-EEA countries.
+
+Cookies – small pieces of information sent by a website that we visit and saved on the end device (computer, laptop, smartphone) that we use when browsing websites.
+
+President of the Office – President of the Personal Data Protection Office, a supervisory authority within the meaning of the GDPR that supervises compliance with the provisions of law on the protection of personal data in Poland.
+
+Profiling – means any form of automated processing of personal data consisting of the use of personal data to evaluate the personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person’s performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements, where such action produces legal effects concerning that person or similarly significantly affects him or her.
+
+SSL – is a network protocol used for secure Internet connections, adopted as an encryption standard on websites. An SSL certificate ensures the confidentiality of data transmitted over the Internet.
+
+Processing of personal data – means an operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+
+Policy – privacy policy of Goodcase.io Sp. z o. o.
+
+GDPR – Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC
+
+APES – Act on the provision of electronic services of 18 July 2002 (Journal of Laws No. 144, item 1204, as amended).
+
+Telecom Law – Act on Telecommunications Law of 16 July 2004 (Journal of Laws No. 171, item 1800, as amended)
+
+User – means a person using the website and social media profiles of the Controller.
+
+‍
+
+‍
+
+Information about the Controller
+
+‍
+
+The controller of your personal data is Goodcase.io Sp. z o. o. with its registered office in Warsaw at ul. Al. Jana Pawla II 27, 00-867 Warsaw (hereinafter referred to as the “Controller”).
+
+The Controller can be contacted by e-mail: piotr@Goodcase.com or through the contact form on the website.
+
+‍
+
+‍
+
+Joint controllers
+
+‍
+
+With regard to personal data processed in connection with maintaining the Goodcase.io Sp. z o.o.profile on Facebook, please be advised that the controller of your personal data processed by that website is both Goodcase.io Sp. z o. o. and Meta Platforms Ltd. acting as joint controllers. All information on the processing of personal data by Goodcase.io Sp. and the rights that you have in relation to Goodcase.io Sp. can be found in this privacy policy. In any matters related to maintaining your own profile on Facebook, tracking your behaviour by Facebook and exercising your rights in this regard, please address Meta Platforms Ltd.. directly. We would like to inform you that by liking our post, i.e. by clicking the “Like” button, you consent to the processing of your personal data. More information on the joint control and processing of personal data by Facebook can be found in the regulations and policies on the Facebook website.
+
+‍
+
+‍
+
+Legal basis for the processing
+
+‍
+
+Purpose of processing
+Legal basis
+Data recipients
+Duration of processing
+Responding to a message sent by email, via LinkedIn, X portal or Facebook profile.
+
+Article 6 (1) (f), i.e. the legitimate interest of the Controller in handling correspondence and phone calls
+
+IT service providers; Internet providers; hosting providers;Microsoft Ltd.X Corp.Meta Platforms Ltd.LH.pl sp. z o.o.
+
+For the period necessary to consider the matter to which the message relates.
+
+Presenting an offer (in the case of individuals addressing an inquiry on their own behalf, i.e. B2C)
+
+Article 6 (1) (b) of the GDPR, i.e. processing is necessary to take steps prior to entering into a contract.
+
+IT service providers; Internet providers; hosting providers;Microsoft Ltd.
+
+Until you object to the processing.
+
+Presenting an offer (in the case of individuals addressing an inquiry on behalf of the bodies for which they provide services, i.e. B2B)
+
+Article 6 (1) (f) of the GDPR, i.e. the legitimate interest of the Controller in proposing and establishing business cooperation.
+
+IT service providers; Internet providers; hosting providers;Microsoft Ltd.
+
+Until you object to the processing.
+
+Marketing – the main website
+
+Article 6 (1) (f), i.e. the legitimate interest of the Controller in acquiring and retaining a client
+
+IT service providers; Internet providers; hosting providers;LH.pl sp. z o.o.Google Ltd.
+
+Until you object to the processing.
+
+Marketing – promotional mailing, including sending of newsletters
+
+Article 6 (1) (f) of the GDPR, i.e. a legitimate interest consisting in carrying out marketing activities based on your consent obtained in accordance with the Telecom Law and APES.
+
+IT service providers; Internet providers; hosting providers;
+
+Until you object or withdraw your consent expressed in accordance with the Telecom Law and APES.
+
+Marketing – maintaining company profiles on social media platforms (, , Facebook, LinkedIn, X portal)
+
+Article 6 (1) (f), i.e. the legitimate interest of the Controller in acquiring and retaining a client by publishing promotional posts
+
+IT service providers; Internet providers; hosting providers;.Meta Platforms Ltd.,Microsoft Ltd.X Corp.
+
+Until you object to the processing.
+
+Entering into and performing a contract with a client (processing an order)
+
+Article 6 (1) (a) of the GDPR and, in selected cases, Article 9 (2) (a) and (f) of the GDPR in connection with the client’s consent to processing for the following purposes- to the extent necessary for providing services- to perform a contract- to pursue or defend any claims in connection with performing a contract.
+
+IT service providers; Internet providers; hosting providers;Payment services providers;Law firms and legal advisors;
+
+Before a service is completed, until you withdraw your consent; after the service has been completed, until the expiry of the period for pursuing or defending against any claims.
+
+Complaints  (defending against or pursuing any claims)
+
+Article 6 (1) (f) of the GDPR legitimate interest in establishing, pursuing or defending claims.
+
+IT service providers; Internet providers; hosting providers;Payment services providers.
+
+Until any claims arising under the provisions of civil law become time-barred.
+
+Taking steps prior to entering into and performing a contract (contractors)
+
+Article 6 (1) (b) of the GDPRTaking the necessary steps to enter into a contract with a client.
+
+IT service providers; Internet providers; hosting providers;Law firms and legal advisors;
+
+For the duration of the contract, its termination and until the expiry of the time limit for pursuing potential claims
+
+Performing a contract (contractor’s employees).
+
+Article 6 (1) (f) of the GDPRthe Controller’s legitimate interest in coordinating activities with the contractor.
+
+IT service providers; Internet providers; hosting providers;Law firms and legal advisors;
+
+For the duration of the contract, its termination and until the expiry of the time limit for pursuing potential claims
+
+Running a recruitment process (employees)
+
+Article 6 (1) (a) and (c) of the GDPR, i.e. to the extent defined in the provisions of the Polish labour law, the Controller is obligated to process a specific set of data of candidates for work;As regards the data going beyond the set defined in the labour law, the legal basis for the processing of personal data is the candidate’s consent (Article 6 (1) (a) of the GDPR)
+
+IT service providers;Internet providers; hosting providers
+
+3 months from the date of completion of the recruitment process or until the consent is withdrawn, based on the candidate expressing his or her wish to participate in future recruitments
+
+Running a recruitment process (employees)
+
+3 months from the date of completion of the recruitment process or until the consent is withdrawn, based on the candidate expressing his or her wish to participate in future recruitments
+
+3 months from the date of completion of the recruitment process or until the consent is withdrawn, based on the candidate expressing his or her wish to participate in future recruitments
+
+3 months from the date of completion of the recruitment process or until the consent is withdrawn, based on the candidate expressing his or her wish to participate in future recruitments
+
+Recruitment (contractors and collaborators)
+
+Article 6 (1) (b) of the GDPR, i.e. the legal basis is taking steps prior to entering into a contract with persons engaged in their own business.
+
+IT service providers; Internet providers; hosting providers
+
+3 months from the date of completion of the recruitment process.
+
+Organization of projects and events (conferences, trainings, webinars)
+
+Article 6 (1) (f) of the GDPR, i.e. a legitimate interest consisting in carrying out marketing activities.
+
+IT service providers; Internet providers; hosting providers;Bodies cooperating in the organization of events.
+
+Until any claims become time-barred.
+
+Recording and publishing recordings of organized events (conferences, trainings, webinars)
+
+Article 6 (1) (f) of the GDPR, i.e. the Controller’s legitimate interest consisting in carrying out marketing activities based on your consent within the meaning of the Polish Copyright Act.
+
+IT service providers; Internet providers; hosting providers;Bodies cooperating in the organization of events.
+
+Until you object or withdraw your consent within the meaning of the Polish Copyright Act.
+
+Acceptance and processing of a request under GDPR
+
+Article 6 (1) (c), i.e. the obligation under the GDPR to provide the data subject with information about the actions taken in connection with his or her request
+
+IT service providers; Internet providers; hosting providers – Law firms and legal advisors;
+
+Until any claims become time-barred.
+
+Statistics and profiling
+
+Article 6 (1) (f), i.e. the legitimate interest of the Controller in collecting and using statistics in order to improve the range and quality of services offered and communicating customised marketing content in relation to the use of Google Analytics based on your consent obtained in accordance with the Telecom Law
+
+IT service providers; Internet providers; hosting providers,Google Ltd.LH.pl sp. z o.o.
+
+Until you object to the processing.
+
+‍
+
+‍
+
+Rights of data subjects
+
+‍
+
+Each person whose data is processed has specific rights under the GDPR.  
+
+‍
+
+‍
+
+Right to demand access to your personal data
+
+‍
+
+Each person has the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and where that is the case, he or she has the right to access them and to obtain some specific information.
+
+The first copy of personal data undergoing processing will be provided to the person at his or her request free of charge. We may charge a reasonable fee for any further copies requested by the data subject due to administrative costs. If you make the request by electronic means, and unless otherwise requested by you, we will provide the information in a commonly used electronic form.
+
+‍
+
+‍
+
+Right to rectify
+
+‍
+
+You have the right to request from us the rectification without delay of your personal data which is inaccurate. You also have the right to request to have incomplete personal data completed, including by means of providing an additional statement.
+
+‍
+
+‍
+
+Right to demand the erasure of personal data
+
+‍
+
+You have the right to request from us to delete your data without delay, and we are obligated to delete it without undue delay where one of the following grounds applies:
+
+your personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
+you have withdrawn the consent on which the processing is based and there is no other legal basis for further processing;
+you have objected to the processing and there are no overriding legitimate grounds for the processing;
+your personal data have been processed unlawfully;
+your personal data have to be erased in order to comply with a legal obligation under the European Union law or under the law of the Member State to which the controller is subject;
+your personal data have been collected in connection with the provision of information society services.
+
+‍
+
+In accordance with the GDPR, your data, regardless of your request and the fact that the above conditions are fulfilled, may not be deleted if their processing is necessary:
+
+for exercising the right of freedom of expression and information;
+for compliance with a legal obligation which requires processing under the EU or Member State law to which the controller is subject or for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+for reasons of public interest in the field of public health;
+for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89 (1) of the GDPR, insofar as the right to erasure is likely to render impossible or seriously impair the achievement of the objectives of that processing; or
+for the establishment, exercise or defence of legal claims.
+
+‍
+
+‍
+
+Right to demand restriction of processing
+
+‍
+
+You have the right to request from the controller to restrict processing in the following cases:
+
+you contest the accuracy of your personal data, for a period enabling the controller to verify the accuracy of the data;
+the processing is unlawful but you oppose the erasure of your personal data and requests the restriction of their use instead;
+the controller no longer needs the personal data for the purposes of the processing, but you need the data for the establishment, exercise or defence of legal claims;
+you object to the processing pending the verification whether the legitimate grounds on the part of the controller override your reasons for the objection.
+
+‍
+
+‍
+
+Right to object
+
+‍
+
+You have the right to object, on grounds relating to your particular situation, at any time to processing of your data based on the controller’s legitimate interest, or to the processing necessary for the performance of a task carried out for reasons of public interest or in the exercise of official authority vested in the controller, including profiling based on those legal provisions.
+
+If you object, we will no longer process your personal data unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms or the grounds for the establishment, exercise or defence of legal claims.
+
+‍
+
+‍
+
+Right of data portability
+
+‍
+
+You have the right to receive the personal data you have provided to us in a structured, commonly used and machine-readable format and you have the right to transmit those data to another controller without hindrance from us, where:
+
+the processing is based on your consent or on a contract and
+the processing is carried out by automated means.
+
+The possibility of exercising the right of data portability and having it transmitted by the controller directly to another controller will be realized as far as technically feasible.
+
+According to the GDPR, the exercise of your rights must not adversely affect the rights and freedoms of others.
+
+‍
+
+‍
+
+Right of withdrawal of your consent
+
+‍
+
+If your data is processed on the basis of your consent, you have the right to withdraw such consent at any time. The withdrawal of your consent will not affect the lawfulness of data processing carried out on the basis of your consent before its withdrawal.
+
+If you withdraw your consent, we have the right to further process your data if it is necessary:
+
+for exercising the right of freedom of expression and information;
+for compliance with a legal obligation which requires processing under the EU or Member State law to which the controller is subject or for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+for reasons of public interest in the field of public health;
+for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89 (1) of the GDPR, insofar as the right to erasure is likely to render impossible or seriously impair the achievement of the objectives of that processing; or
+for the establishment, exercise or defence of legal claims.
+
+‍
+
+‍
+
+Right to lodge a complaint
+
+‍
+
+You have the right to submit a complaint to the President of the Office for Personal Data Protection. As indicated by the President of the Office, because the President of the Office is the body controlling the correct application of the law on the protection of personal data by the controller of your data, the the person submitting the complaint should first contact the controller  in order to exercise his/her rights.
+
+Direct link to the website of the Office for Personal Data Protection to lodge a complaint;
+
+https://uodo.gov.pl/pl/p/skargi
+
+‍
+
+‍
+
+Information on data processing outside the EEA
+
+‍
+
+In certain cases, your personal data may be processed outside the EEA. In the case of Goodcase.io Sp. z o. o., your data may be transferred to the USA in connection with your activity on our Facebook and YouTube social media profiles, as we have indicated in Section 5 of this Policy. In addition, in connection with the use of Microsoft 365 services for electronic communications, your data may also be transferred to the provider’s servers in the USA.
+
+In each such case, the legal basis for the data transfer is the Data Privacy Framework document or Standard Contractual Clauses document. Each provider will ensure an adequate level of security of such transfer. More information is provided below:
+
+Google Ltd. – https://support.google.com/adspolicy/answer/10042247?hl=pl
+
+Microsoft Ltd. – https://www.microsoft.com/pl-pl/trust-center/privacy/gdpr-faqs
+
+‍
+
+‍
+
+Security of use of our website
+
+‍
+
+Please be advised that Goodcase.io Sp. z o. o. applies adequate technical and organizational measures aimed at ensuring the maximum level of protection for people using our company’s website and providing their personal data using the contact form.
+
+In order to guarantee the highest level of security, the website is secured with SSL code.
+
+The website may contain links to other websites, in particular to make payments for our services, or may redirect you to other channels of communication (radio, television, press, spatial advertising, etc.). In connection with the above, apart from the websites administered by the Controller, the Controller will not be responsible for the privacy settings that apply on these websites or in such communication media, neither will the Controller be responsible for the availability of any services or goods shared through those websites or other communication media to which links may be provided on our website.
+
+The Controller will also not be responsible for any damage resulting from or that may result in connection with the use of such websites or media.
+
+‍
+
+‍
+
+Cookies and profiling
+
+‍
+
+On our website, data from cookies are processed.
+
+In connection with the use of Google Analytics in our systems (including Google Signals and User ID), we use cookies for the following purposes:
+
+maintaining and improving the operation of the website services;
+analysing the user’s network traffic during the use of the Administrator’s website;
+personalizing marketing content shared on the Controller’s website;
+keeping statistics of users visiting the website
+
+The data collected through cookies by Google Analytics (user ID and IP address) are transmitted to and stored by Google on servers in the United States. If the websites anonymise IP addresses, the IP address of the User will be truncated by Google within the territory of a Member State of the European Union or in another state of the European Economic Area before it is transmitted to the United States. Only in exceptional cases will the full IP address be transmitted to a Google server in the United States and truncated there. Google will use this information to evaluate the manner of use of the Website by the User, to compile reports on website traffic for website operators and to provide other services related to website traffic and Internet use. Google will not associate the User’s IP address with any other data held by Google.
+
+Like many other services, Google Analytics and Facebook use their own cookies to analyze the activities of users. These files are used to store information, such as the time of commencement of the current visit and whether the User has ever been to our website, from which website he or she arrived to our site, screen resolution of his or her device, what information was interesting to him or her on our site, etc. By using the website, you consent to the processing of your data by Google in the manner and for the purposes set out above.
+
+‍
+
+Our website uses:
+
+Google Tag Manager
+Google Ads
+Google Analytics
+Hotjar
+LinkedIn Insight
+Calendly
+WP Full Picture
+
+Our website also uses WP Full Picture (WP FP) to:
+
+manage tracking tools,
+handle user consents,
+record consents,
+control which tracking tools are loaded based on those consents,
+ensure that tracking tools work correctly,
+ensure that tracking cookies are set only after required permissions.
+
+To make it possible, WP Full Picture may use cookies and browser storage to:
+
+Remember your consent choices and privacy settings (necessary for the site to function correctly),
+Collect anonymous statistics about website usage (only if you consent), and
+Ensure that analytical and marketing tracking tools operate in line with your preferences.
+
+For a detailed list of cookies that WP FP sets, their duration, and purpose, please visit this page. You can change your cookie preferences at any time.
+
+‍
+
+‍
+
+Information on profiling
+
+‍
+
+As part of data processing the Controller performs profiling of your personal data i.e. processes your personal data in an automated manner to analyse information about a person based on certain factors. Profiling is designed to enable us to provide you with tailored marketing content so that you receive information that may actually be of interest to you and match your profile and needs. The purpose of profiling is to better match content, in particular marketing content, so that you receive relevant marketing information.
+
+Please beware that implementing restrictions on the use of technologies described above may adversely affect the functioning of the website. For detailed information about the Google Analytics solution used, please click on the following link:
+
+https://support.google.com/analytics/answer/6004245
+
+If you wish to limit the use of personalization of marketing content, you can, in addition to reconfiguring cookies on our website, also follow the steps indicated in the link below.
+
+https://support.google.com/My-Ad-Center-Help/answer/12155451?visit_id=638115296972925841-2900554943&rd=1
+
+The legal basis for the transfer of data outside the EEA is Data Privacy Framework and  Standard Contractual Clauses.
+
+You can configure your browser to receive information about the use of cookies in order to decide whether to accept or reject them in specific cases or completely. If you do not accept the use of certain cookies, some features of our website may not be displayed correctly.
+
+Below are the configuration instructions for each browser.
+
+Internet Explorer
+
+Microsoft Edge
+
+Mozilla Firefox
+
+Chrome
+
+Opera
+
+Safari
+
+‍
+
+‍
+
+Final provisions
+
+‍
+
+Using the Controller’s website and providing your personal data in the forms is completely voluntary. In some cases, providing your personal data may be necessary to achieve a specific purpose.
+
+Goodcase.io Sp. z o. o.  reserves the right to amend this Policy at any time due to changes in services offered or to adapt to changes in the law. Whenever possible, we will endeavour to inform you of any updates to the Policy prior to their implementation.  
+
+Last updated on 10/04/2024.
+
+‍
+
+Contact
+Need reliable team to support your law firm? Let's build something great together.
+Your Name *
+Your Email *
+Tell us a bit more about how we can help
+*I consent to the use of my email address by Goodcase.io to respond to my inquiry inaccordance with the Privacy Policy (*required)
+I would like to receive practical insights and updates for immigration professionals from Goodcase.io.
+The controller of your personal data is Goodcase.io Sp. z o.o with its registered office in Warsaw at al. Jana Pawla II 27, 00-867 Warsaw Show more
+(hereinafter referred to as "the Controller"). The Controller can be contacted by e-mail: info@goodcase.io or using the contact form on the website. Your personal data will be processed in order to respond to any communication from you, and in particular to perform any actions necessary to start our cooperation. In addition, we would like to inform you that you have specific rights under the GDPR, in particular the right to object to our actions as the Controller or to withdraw your consent (if your data is processed based on your consent). You can find more information about your rights and the methods of data processing in our Privacy Policy
+Send the message
+We usually respond within 24 hours.
+Services
+Paralegal Support
+Digital Transformation
+Operations & Growth
+Marketing Toolkit
+Goodcase
+Blog
+About us
+Examples of docs
+How we work
+FAQ
+Privacy Policy
+AI Use Policy
+Contact us
+info@goodcase.io
+Schedule Free Consultation
+Copyright © 2026 Goodcase.io Sp. z o.o. All rights reserved. Goodcase is a private company that provides services in support of immigration documents preparation by qualified attorneys. The information provided in this site is not legal advice, but general information on issues commonly encountered in immigration. Goodcase is not a law firm and does not provide legal advice. Use of the Goodcase website and its services are subject to our Privacy Policy and Terms of Use. Goodcase.io Sp. z. o. o. (Limited Liability Company), address: al. Jana Pawła II 27, Warsaw, 00‐867 Poland KRS number 0001060361, taxpayer identification NIP: 5273076826, business registry number REGON: 526474334.
+
+LINKS
+/
+/services
+/services/paralegal-support
+/services/digital-transformation
+/services/operations-growth
+/services/marketing-toolkit
+/how-it-works
+/about-us
+/resources
+/resources/examples-of-docs
+/resources/blog
+/resources/faq
+/flexparalegal
+/contact
+/privacy-policy
+/ai-use-policy

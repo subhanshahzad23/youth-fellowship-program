@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useSyncExternalStore } from "react";
-import { getNowServerSnapshot, getNowSnapshot, subscribeNow } from "@/lib/clock";
 
-/** Demo-clock "now" (minute precision). The server and first render use the fixed demo base, so there is no hydration mismatch. */
-export function useNow() {
-  return useSyncExternalStore(subscribeNow, getNowSnapshot, getNowServerSnapshot);
+const noopSubscribe = () => () => {};
+/** true only after hydration on the client — use to gate browser-only values (dates, timezones). */
+export function useIsClient() {
+  return useSyncExternalStore(noopSubscribe, () => true, () => false);
 }
 
 function mediaStore(query: string) {
